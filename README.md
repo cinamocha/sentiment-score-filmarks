@@ -8,9 +8,16 @@ Pandasでスクレイピングしたデータをデータフレームにまと�
 #改善点  
 そもそも扱うデータと感情分析の相性が悪いように感じた。参考に出来るデータも少ないため改善の余地あり。  
 
+#このリポジトリについて  
+analysis.py 感情分析の処理をanalyze_sentiment関数と定義している  
+filmark_comment.py タイトルやレビューを取得する処理をget_reviews関数と定義している  
+main.py 上の定義した関数をインポートし根幹の流れを作っている  
+
+
+
 #使い方  
 １．このリポジトリをクローンする  
-git clone https://github.com/cinamocha/sentiment-score-filmarks
+git clone https://github.com/cinamocha/sentiment-score-filmarks  
 
 ２．下記ライブラリのインストール
 pip install requests beautifulsoup4 pandas nltk  
