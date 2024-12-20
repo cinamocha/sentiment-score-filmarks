@@ -16,15 +16,21 @@ main.py 上の定義した関数をインポートし根幹の流れを作って
 
 
 ## 使い方  
-１．このリポジトリをクローンする  
+1. このリポジトリをクローンする  
+```
 git clone https://github.com/cinamocha/sentiment-score-filmarks  
+```  
 
-２．下記ライブラリのインストール
+2. 下記ライブラリのインストール  
+```
 pip install requests beautifulsoup4 pandas nltk  
+```  
 
-３．スクリプト実行  
+3. スクリプト実行  
+```
 python main.py  
-  
+```  
+
 Python 3.13.0  
 beautifulsoup4 4.12.3  
 bs4 0.0.2  
